@@ -15,4 +15,9 @@ func main() {
 		return -cmp.Compare(a, b)
 	})
 	fmt.Println(int_list)
+
+	// var userinfo map[string]string
+	userinfo := make(map[string]string)
+	userinfo["username"] = "张三"
+	fmt.Println(userinfo)
 }
